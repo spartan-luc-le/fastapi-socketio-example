@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-socketio-example"
+version = "0.1.0"
+description = ""
+authors = ["luc.le <trungluc.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.1"
+python-socketio = {extras = ["asyncio"], version = "^5.11.3"}
+uvicorn = "^0.30.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
